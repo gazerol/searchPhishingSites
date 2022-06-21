@@ -102,7 +102,7 @@ if __name__ == "__main__":
         "win", "bid",
     ]
     dict_homoglyphs = {'o': '0', 'i': '1', 'l': '1'}
-    word = list(input('Enter keywords (example "sberbank"): ').split(","))
+    word = list(input('Enter keywords (example "sberbank, google"): ').split(","))
 
     list_ready_sites = []
     main(create_list_all_sites(create_list_all_words(word)))
